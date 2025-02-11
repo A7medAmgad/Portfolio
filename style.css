@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(2, 48, 68);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+}
+.logo{
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navigation a{
+    color:  rgb(235, 235, 235);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: rgb(187, 183, 191);
+}
+section{
+    padding: 10px 70px;
+    color: aliceblue;
+}
+.Main{
+    width: 100%;
+    min-height: 100vh; 
+    display: flex; 
+    align-items: center;
+    background: url(images/CloudSecurity_2_new.jpg) no-repeat;
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+
+.Main h2{
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: 550;
+}
+.Main h2 span{
+    display: inline-block;
+    margin-top: 10px ;
+    color: aliceblue;
+    font-size: 1.7em;
+    font-weight: 600;
+    bottom: 50px;
+}
+.Main h3{
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: 550;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Main a{
+    color: aliceblue;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 9px 15px;
+    background-color: rgb(43, 92, 117);
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.Main_Button {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 10em;
+    font-weight: 1000;
+    padding: 10px 20px;
+    background-color: rgb(43, 92, 117);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 1em 1em;
+    display: inline-block;
+    letter-spacing: 1px ;
+    transition: 0.5s ease-in-out;
+}
+.Main_Button:hover{
+    background-color: rgb(11, 55, 78);
+    transform: scale(1.1);
+}
+.Social_Icons a{
+    color: aliceblue;
+    font-size: 1em;
+}
+.Social_Icons a:hover{
+    color:rgb(157, 172, 180);
+    transition: 0.5s ease-in-out;
+}
+/* --------------- Cards ----------------- */
+.title{
+    display: flex;
+    justify-content: center;
+    color:rgb(43, 92, 117) ;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-top: 45px;
+}
+.Content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row ;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: aliceblue;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 50%);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.Icon {
+    color: rgb(43, 92, 117) ;
+    font-size: 6em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: rgb(43, 92, 117);
+    font-size: 1.5em;
+    font-weight: 650;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.info p{
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 10px;
+}
+/* --------------- Projects ----------------- */
+.projects{
+    background-color:rgb(43, 92, 117) ;
+}
+.projects .title{
+    color: aliceblue;
+    margin-top: 30px;
+}
+.projects .Content{
+    margin-top: 30px;
+}
+.projects_card{
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 15px;
+    min-height: 13px;
+    width: auto;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.5s ease-in-out;
+}
+.projects_card:hover{
+    transform: scale(1.1);
+}
+.projects_card:hover .projects_image{
+    opacity: 0.85;
+}
+.projects_image img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.projects_info{
+    padding: 0.4em;
+}
+.project_category{
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(43, 92, 117);
+}
+.project_title{
+    color: rgb(43, 92, 117);
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.view{
+    text-decoration: none;
+    color: black;
+}
+.view:hover{
+    color: rgb(57, 68, 73);
+}
+.footer{
+    background-color: rgb(43, 92, 117);
+    color: aliceblue;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.footer-title span{
+    color: liceblue;
+}
+.Social_Icons_2 a{
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+.Social_Icons_2 a:hover{
+    color: rgb(157, 172, 180);
+    transition: 0.5s ease-in-out;
+}
